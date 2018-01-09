@@ -11,7 +11,7 @@ x=[2,'S']
 
 def naivebayes_classify(X,Y,x):
     '''
-    bayes分类
+    bayes分类  没有加入拉普拉斯平滑
     :param X:训练数据
     :param Y:训练数据标签
     :param x:实例x
