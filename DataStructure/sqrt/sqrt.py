@@ -1,6 +1,6 @@
 def sqrt_newton(n,epsilon=1e-9):
     '''
-    牛顿迭代法开根号
+    牛顿迭代法开根号 一般对于数值计算g考虑收敛速度
     :param n:
     :param epsilon: 误差范围
     :return:
@@ -13,6 +13,7 @@ def sqrt_newton(n,epsilon=1e-9):
 
 def sqrt_divide(n,epsilon=1e-9):
     '''
+    nlogn
     二分法逼近求平方根
     :param n:
     :param epsilon:
