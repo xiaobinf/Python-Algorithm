@@ -15,11 +15,9 @@ bool constraint(vector<char>& cur_chs, char c)
     {
         if(cur_chs[j]==c)
             num++;
+            return false;
     }
-    if(num==0) {
-        return true;
-    }else
-        return false;
+    return true;
 }
 
 void backtrack(int t)
